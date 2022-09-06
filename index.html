@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altas Idades</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: black;
+      }
+      h1 {
+        text-align: center;
+        color: whitesmoke;
+        margin: 30px auto;
+      }
+      .center {
+        background: burlywood;
+        width: 80%;
+        max-width: 600px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .altura {
+        min-height: 88vh;
+      }
+      div {
+        margin: 10px;
+      }
+      .btn {
+        padding: 0 10px;
+      }
+      footer {
+        background: green;
+        text-align: center;
+        padding: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="altura">
+      <header><h1>Altas Idades</h1></header>
+      <section class="center">
+        <div>
+          <p>
+            Ano de nascimento
+            <input type="number" id="ano" placeholder="ano de nascimento" />
+          </p>
+        </div>
+        <div>
+          <p>
+            Sexo: <br />
+            <input type="radio" name="radsex" id="mas" checked />
+            <label for="Masc">Masculino</label> <br />
+            <input type="radio" name="radsex" id="fem" />
+            <label for="Fem">Feminino</label>
+          </p>
+        </div>
+        <input
+          class="btn"
+          type="button"
+          name=""
+          id=""
+          value="submit"
+          onclick="submit()"
+        />
+        <div class="foto">
+          <img src="" alt="" id="img" />
+        </div>
+        <div id="res">Preencha os campos e clique em submit</div>
+      </section>
+    </div>
+    <footer>Todos os direitos reservados a Altamir Junior</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
